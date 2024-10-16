@@ -1,0 +1,11 @@
+img{
+    width: 1000px;
+    height: 1000px;
+    cursor: pointer;
+    border-radius: 8px;
+    filter: grayscale(1);
+    transition: 0.3s linear;
+}
+img:hover{
+    filter: grayscale(0);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="burger" onclick="toggLeMenu()">
+    </button>
+    <div class="menu">
+        <div style="transition-delay: 0.1s;"></div>
+        <div style="transition-delay: 0.2s;"></div>
+        <div style="transition-delay: 0.3s;"></div>
+        <div style="transition-delay: 0.4s;"></div>
+        <ul>
+            <li style="transition-delay: 0.4s;">
+                <a href="">Home</a>
+            </li>
+            <li style="transition-delay: 0.5s;">
+                <a href="">About</a>
+            </li>
+            <li style="transition-delay: 0.6s;">
+                <a href="">Contact</a>
+            </li>
+            <li style="transition-delay: 0.7s;">
+                <a href="">products</a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        const toggLeMenu=()=>
+        document.body.classList.toggle("open");
+    </script>
+    
+</body>
+</html>

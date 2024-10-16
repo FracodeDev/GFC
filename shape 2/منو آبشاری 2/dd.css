@@ -1,0 +1,39 @@
+body{
+    background-color: #242020;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+.menu{
+    background-color: #00eeff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu ul{
+    margin: 0px;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+}
+.menu ul li:hover
+{
+    background-color: rgb(0, 174, 255);
+    color: #fff;
+}
+.sub{
+    width: 200px;
+    background-color: #00eeff;
+    display: none;
+    position: absolute;
+    padding: 0px !important;
+    top: 60px;
+    margin-left:-20px !important;
+}
+.sub li{
+    width: 160px;
+    margin: 0px !important;
+}
+.drop:hover ul{
+   display: block;
+}
